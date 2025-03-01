@@ -1,0 +1,212 @@
+body {
+    height: 100vh;
+}
+
+html {
+	height: 100vh;
+	cursor: url('cursor.cur'),auto;
+}
+
+p {
+    font-size: 12px;
+    margin: 0px;
+    padding: 0px;
+}
+
+p a {
+    font-size: 14px;
+    text-decoration: underline;
+    color: #3d5197;
+}
+
+p a:hover {
+    color: #243471;
+}
+
+nav, footer {
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e9f5f4;
+    border-bottom: 3px solid #909090;
+    padding: 10px;
+}
+
+footer {
+  border-bottom: none;
+  border-top: 3px solid #909090;
+  margin-bottom: 0px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+nav p {
+    font-size: 12px;
+    font-weight: bold;
+    color: #3f3939;
+}
+
+/* div {
+    background-color: none;
+    padding: 0px;
+    margin: 0px;
+} */
+
+.main-div{
+    display: flex;
+    justify-content: center;
+    justify-self: center;
+    background-image: url("images/xp-bg.webp");
+    background-repeat: no-repeat;
+    border: 5px solid #0055F3;
+    border-bottom: 30px solid #0055F3;
+    height: fit-content;
+    margin: 10px;
+
+}
+
+.windows-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.window-scroll {
+    overflow-y: scroll;
+}
+
+.desktop-div {
+  margin: 0px;
+  padding: 0px;
+  transform: translate(50px, -80px);
+}
+
+ul {
+    height: 150px;
+    padding: 0px;
+    margin: 0px;
+}
+
+#window-1 {
+    background-color: #e9f5f4;
+    width: 200px;
+    height: 75px;
+    margin: 20px 30px 100px 100px;
+}
+
+#window-2 {
+    background-color: #e9f5f4;
+    width: 400px;
+    height: 100px;
+    margin: 30px 30px 40px 30px;
+}
+
+#window-3, #window-4, #window-5 {
+    background-color: #e9f5f4;
+    width: 170px;
+    height: 200px;
+    margin: 20px 40px 50px 40px;
+    transform: translate(0px, -60px);
+}
+
+#window-6, #window-7, #window-8 {
+    background-color: #e9f5f4;
+    width: 170px;
+    height: 200px;
+    margin: 20px 40px -35px 40px;
+    transform: translate(0px, -60px);
+}
+
+#window-3 {
+    margin-left: 150px;
+}
+
+#window-6 {
+    margin-left: 75px;
+}
+
+.window-personal {
+    width: 190px;
+    height: 200px;
+    margin: 30px;
+}
+
+#personal-desktop-button-win {
+  width: 125px;
+}
+
+iframe {
+    display: inline;
+    background-color: #e9f5f4;
+    padding: 0px;
+    margin: 0px;
+} 
+
+iframe p {
+    font-size: 14px;
+}
+
+/* credit where credit is due: the transition: lines were adapted from a line of CSS on the blinkies on
+petrapixel's website*/
+
+.desktop-div img:hover {
+  transform: scale(0.8);
+  transition: transform .5s ease-in-out;
+}
+
+.window-body img:hover {
+  transform: scale(1.1);
+  transition: transform .3s ease;
+}
+
+#statuscafe {
+    padding: .5em;
+    background-color: azure;
+    border: 1px solid midnightblue;
+    color: #000;
+}
+#statuscafe-username {
+    margin-bottom: .5em;
+    
+    color: #000;
+}
+#statuscafe-content {
+    margin: 0 1em 0.5em 1em;
+    color: #000;
+}
+
+.johnvertisement {
+	margin-bottom: 200px;
+}
+
+/* .iframe-div-personal {
+    display: flex;
+    flex-direction: row;
+}
+
+#personal-iframe-1 {
+    margin: 50px 10px 200px 200px;
+    height: 160px;
+}
+
+#personal-iframe-2 {
+    margin: 10px 35px 10px 30px;
+    height: 240px;
+}
+
+.personal-iframe-3 {
+    margin: 20px;
+    margin-left: 60px;
+    height: 120px;
+    width: 200px;
+}
+
+.personal-iframe-3-2{
+    margin-top: 30px;
+    margin-left: 50px;
+}
+
+.personal-iframe-3-3 {
+    margin-left: 30px;
+} */

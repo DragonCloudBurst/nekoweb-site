@@ -1,0 +1,54 @@
+/*.background {*/
+/*  height: fit-content;*/
+/*}*/
+
+#portal-img {
+  display: flex;
+  width: 70%;
+  /*margin-top: 30px;*/
+  margin: auto;
+  align-self: center;
+  justify-self: center;
+  border-radius: 1000px;
+  border: 30px solid #202022;
+}
+
+#mof {
+ transform: translate(50vw, 80vh);
+ color: #fff;
+ width: fit-content;
+  margin: 0px;
+  background-color: #202022;
+  padding: 10px;
+  border-radius: 100px;
+}
+
+#tpwc {
+  transform: translate(20vw, 100vh);
+  color: #fff;
+  width: fit-content;
+  margin: 0px;
+  background-color: #202022;
+  padding: 10px;
+  border-radius: 100px;
+}
+
+#taolg {
+  transform: translate(40vw, 125vh);
+  color: #fff;
+  width: fit-content;
+  margin: 0px;
+  background-color: #202022;
+  padding: 10px;
+  border-radius: 100px;
+}
+
+#shr {
+  transform: translate(45vw, 95vh);
+  color: #fff;
+  width: fit-content;
+  margin: 0px;
+  background-color: #202022;
+  padding: 10px;
+  border-radius: 100px;
+}

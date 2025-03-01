@@ -1,0 +1,67 @@
+/* base code from w3schools */
+.sidenav {
+  float: left;
+  height: fit-content;
+  width: 150px; /* Set the width of the sidebar */
+  position: absolute; /* Fixed Sidebar (stay in place on scroll) */
+  background-color: #e9f5f4;
+  overflow-x: hidden; /* Disable horizontal scroll */
+  overflow-y: hidden;
+  padding-top: 20px;
+  margin-bottom: 60px;
+  border: 3px solid #909090;
+  border-top: none;
+}
+
+.debtclock a {
+  text-decoration: underline;
+  color: #000;
+}
+
+#flip-a:hover, #flip-a {
+  color: black;
+}
+
+p {
+  color: #000;
+  font-size: 12px;
+  padding-left: 0px;
+}
+
+/* The navigation menu links */
+.imood {
+  padding: 6px 8px 6px 10px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.debtclock {
+  background-color: #000;
+  color: #1cfc03;
+}
+
+#statuscafe {
+	width: 120px;
+    padding: 10px;
+    background-color: azure;
+    border: 5px solid #81818;
+}
+#statuscafe-username {
+    margin: 5px;
+    font-size: 12px;
+}
+#statuscafe-content {
+    margin: 5px;
+    font-size: 12px;
+}
+
+#statuscafe a {
+	color: #909090;
+}

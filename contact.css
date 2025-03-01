@@ -1,0 +1,10 @@
+.contacts {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    overflow-x: scroll;
+}
+
+.contacts p {
+    padding: 0px 20px;
+}
