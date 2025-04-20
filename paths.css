@@ -1,0 +1,93 @@
+
+* {
+	font-family: Georgia;
+	margin: 0px;
+	padding: 0px;
+	
+}
+
+html {
+	background-color: #e6fcfa;
+	overflow-x: hidden;
+	overflow-y: scroll;
+}
+
+h1 {
+	margin-left: 20px;
+	padding: 20px;
+}
+
+header {
+	background-color: #82cfc6;
+}
+nav {
+	display: flex;
+	flex-direction: row;
+	padding: 0px 0px 20px 50px;
+	
+}
+
+nav p {
+	margin: 0px 20px;
+}
+
+p {
+	padding: 5px;
+}
+
+.main-container {
+	background-color: #82cfc6;
+	margin: 30px auto;
+	padding: 10px;
+	width: 90%;
+	height: 77vh;
+	border-radius: 10px;
+	overflow-y: scroll;
+	overflow-x: scroll;
+}
+
+.secondary-container {
+	background-color: #e4f0f0;
+	padding: 20px;
+	margin: 10px;
+	border-radius: 10px;
+}
+
+#container-1, #container-4 {
+	width: 80%;
+}
+
+#container-2, #container-3 {
+	width: 20%;
+}
+
+.tertiary-container {
+	display: flex;
+}
+
+.quote {
+	font-size: 24px;
+	padding: 10px 20px;
+}
+
+.divider {
+	margin: auto;
+	padding: 5px;
+	display: block;
+}
+
+.img-display {
+	display: block;
+	margin: auto;
+}
+
+a {
+	font-size: 20px;
+	color: #fff;
+}
+
+ul {
+	padding-left: 40px;
+}
+
+
